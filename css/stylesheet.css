@@ -1,0 +1,33 @@
+.float_test > article {
+  width: 36rem;
+  height: auto;
+  margin: 1%;
+  margin-top: 5rem;
+  float: left;
+}
+.float_test > article > * {
+  float: left;
+  margin: 0;
+}
+
+.float_test > article > img {
+  float: right;
+  clear: left;
+}
+
+.float_test > article > p {
+  margin: 0 1rem 0 0;
+  width: 50%;
+}
+
+.float_test > article > h4 {
+  margin: 0 1rem 0 0;
+}
+
+img {
+  width: 45%;
+}
+
+footer {
+  clear: both;
+}
